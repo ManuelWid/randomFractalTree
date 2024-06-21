@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="MJ">
+    <title>Random Fractals</title>
+    <style>
+        *, *::after, *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Random Fractals</h1>
+    <canvas id="canvas"></canvas>
+    <div>
+        <input type="button" id="random" value="Randomize">
+        <label>
+            Angle:
+            <div>
+                <input type="range" id="angle" min="0" max="360" value="45">
+                <span>45</span>
+            </div>
+        </label>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
